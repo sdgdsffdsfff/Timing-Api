@@ -67,7 +67,7 @@ neg-trace.js 是Timing API 的 前端框架，负责收据前端统计数据（�
     
     截图如下：
     
-    ![image](http://trgit2/rj83/timingapi/raw/master/client/04_doc/image/page.png)
+    ![image]https://raw.githubusercontent.com/bcguan2008/Timing-Api/master/client/04_doc/image/page.png)
 
 
 * neg-trace("send", "resource");
@@ -104,6 +104,6 @@ neg-trace.js 是Timing API 的 前端框架，负责收据前端统计数据（�
     
     截图如下：
     
-    ![image](http://trgit2/rj83/timingapi/raw/master/client/04_doc/image/resource.png)
+    ![image](https://raw.githubusercontent.com/bcguan2008/Timing-Api/master/client/04_doc/image/resource.png)
 
 	
