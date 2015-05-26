@@ -1,0 +1,32 @@
+{
+	"server":{
+		"port":8080,
+		"schedulingPolicy":"round-robin",
+		"maxWorkerCrashes": 10,
+		"maxSockets": 100
+	},
+	"service":{
+		"hosts":[
+			{"host":"10.16.40.35","port":"9999"},
+			{"host":"10.16.40.35","port":"9999"}
+		],
+		"path":"/ECMQ/sendMessage",
+		"authorization":"rocketmq:rocketmq",
+		"mq_version": "1",
+		"connect_timeout": 500,
+		"request_timeout": 2000,
+		"page_topic_name": "TimingAPI",
+		"resource_topic_name": "TimingApiResource"
+	},
+	"crawlerDetection":{
+		"searchEngineFile": "/searchengine.csv"
+	},
+	"excludePath":[
+		"/app/faq.*"
+	],
+	"userAgents":[
+		"Googlebot",
+		"Bingbot",
+		"Yahoo"
+	]
+}

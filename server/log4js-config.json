@@ -1,0 +1,11 @@
+{
+  "appenders":[
+    {
+      "type":"file",
+      "filename":"log/timingAPI.log",
+      "pattern": "-yyyy-MM-dd",
+      "maxLogSize":20480,
+      "category":"timingAPI-logger"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+server/node_modules/*
+client/02_gulp/node_modules/*
+server/log/*

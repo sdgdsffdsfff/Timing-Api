@@ -1,0 +1,17 @@
+{
+  "name": "timing-api",
+  "version": "0.1.0",
+  "description": "for timing-api server end",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bn.js": "^2.0.1",
+    "csv-parse": "^0.0.6",
+    "log4js": "^0.6.22",
+    "restify": "^2.8.5"
+  }
+}
